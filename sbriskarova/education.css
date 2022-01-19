@@ -1,0 +1,117 @@
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+  }
+  
+  {
+    box-sizing: border-box;
+  }
+
+  .header {
+    padding: 60px; /* some padding */
+    text-align: left; /* center the text */
+    background: grey; /* green background */
+    color: white; /* white text color */
+    width: 70%;
+    display: block;
+    margin-left: 30px;
+  }
+
+  .header2 {
+    padding: 60px; /* some padding */
+    text-align: right; /* center the text */
+    background: grey; /* green background */
+    color: white; /* white text color */
+    width: 70%;
+    display: block;
+    margin-left: 270px;
+    margin-right: 30px;
+    align-self: right;
+  }
+
+  h2      {
+    color: white;
+    font-family: Sertig;
+    font-size: 1.8em;
+    text-align: left ;
+    margin-top: 20px;
+    margin-bottom: 0.1em;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+    }
+
+    h3      {
+      color: white;
+      font-family: Sertig;
+      font-size: 1.4em;
+      text-align: left ;
+      margin-top: 10px;
+      margin-bottom: 0.1em;
+      font-weight: lighter;
+      letter-spacing: 0.2em;
+      }
+
+h4      {
+    color: white;
+    font-family: Sertig;
+    font-size: 0.9em;
+    text-align: left ;
+    margin-top: 10px;
+    margin-bottom: 0.1em;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+}
+
+h5     {
+  color: rgb(0, 0, 0);
+  font-family: Sertig;
+  font-size: 0.8em;
+  text-align: center ;
+  margin-top: 0.1px;
+  margin-bottom: 0.1em;
+  font-weight: lighter;
+  letter-spacing: 0.2em;
+}
+
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color:white; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color:black; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  font-family: Sertig;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
+}
+
+a:link {
+  text-decoration: none;
+}
+
+hr {
+  color: grey;
+  margin-left: 0cm;
+  margin-bottom: 0.1em;
+}
+
+
+  

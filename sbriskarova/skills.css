@@ -1,0 +1,168 @@
+h1      {
+    color: black;
+    font-family: Sertig;
+    font-size: 2.8em;
+    text-align: center ;
+    margin-top: 10px;
+    margin-bottom: 0.1em;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+  }
+
+h2      {
+    color: black;
+    font-family: Sertig;
+    font-size: 0.9em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    font-weight: lighter;
+    margin-left: 2%;
+    letter-spacing: 0.08em;
+  }
+
+h3      {
+    color: black;
+    font-family: Sertig;
+    font-size: 0.95em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    font-weight: bold;
+    margin-left: 2%;
+    letter-spacing: 0.08em;
+}
+
+h4      {
+  color: white;
+  font-family: Sertig;
+  font-size: 1.0em;
+  margin-top: 0.1em;
+  margin-bottom: 0.09em;
+  font-weight: lighter;
+  margin-left: 2%;
+  letter-spacing: 0.2em;
+}
+
+  .navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color:white; /* Dark background color */
+  }
+
+  .navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color:black; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    font-family: Sertig;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  /* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 65%; /* Full width */
+  background-color: white; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  font-weight: lighter;
+  letter-spacing: 0.2em;
+}
+
+.java {width: 50%; background-color: black;} /* Green */
+.python {width: 50%; background-color: black;} /* Blue */
+.mysql {width: 60%; background-color: black;} /* Red */
+.html {width: 40%; background-color: black;} /* Dark Grey */
+.css {width: 35%; background-color: black;} /* Dark Grey */
+.word {width: 60%; background-color: black;} /* Dark Grey */
+.excel {width: 60%; background-color: black;} /* Dark Grey */
+.english {width: 80%; background-color: black;} /* Dark Grey */
+.russian {width: 60%; background-color: black;} /* Dark Grey */
+
+.box {
+  background-color: #f2e6d9;
+  width: 80%;
+  border: 2px solid #f2e6d9;
+  padding: 20px;
+  margin: 10px;
+}
+
+.skills1 {
+  text-align: rightt; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.container1 {
+  width: 65%; /* Full width */
+  background-color: white; /* Grey background */
+}
+
+.box1 {
+  background-color: #f2e6d9;
+  width: 80%;
+  border: 2px solid #f2e6d9;
+  padding: 20px;
+  margin: 10px;
+  margin-left: 20%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 220px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+hr {
+  color: grey;
+  margin-left: 0cm;
+  margin-bottom: 0.1em;
+}
+
+h5     {
+  color: rgb(0, 0, 0);
+  font-family: Sertig;
+  font-size: 0.8em;
+  text-align: center ;
+  margin-top: 0.1px;
+  margin-bottom: 0.1em;
+  font-weight: lighter;
+  letter-spacing: 0.2em;
+}
