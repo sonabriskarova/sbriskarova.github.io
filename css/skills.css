@@ -43,62 +43,59 @@ h4      {
 }
 
   .navbar {
-    overflow: hidden; /* Hide overflow */
-    background-color:white; /* Dark background color */
+    overflow: hidden; 
+    background-color:white; 
   }
 
   .navbar a {
-    float: left; /* Make sure that the links stay side-by-side */
-    display: block; /* Change the display to block, for responsive reasons (see below) */
-    color:black; /* White text color */
-    text-align: center; /* Center the text */
-    padding: 14px 20px; /* Add some padding */
+    float: left; 
+    display: block; 
+    color:black; 
+    text-align: center; 
+    padding: 14px 20px;
     font-family: Sertig;
     font-size: 0.9em;
     text-decoration: none;
   }
   
-  /* Right-aligned link */
   .navbar a.right {
-    float: right; /* Float a link to the right */
+    float: right; 
   }
-  /* Change color on hover/mouse-over */
+ 
   .navbar a:hover {
-    background-color: #ddd; /* Grey background color */
-    color: black; /* Black text color */
+    background-color: #ddd; 
+    color: black; 
   }
   
   a:link {
     text-decoration: none;
   }
-  
-  /* Make sure that padding behaves as expected */
+ 
 * {box-sizing:border-box}
 
-/* Container for skill bars */
 .container {
-  width: 65%; /* Full width */
-  background-color: white; /* Grey background */
+  width: 65%;
+  background-color: white; 
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+  text-align: right;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  color: white; 
   font-weight: lighter;
   letter-spacing: 0.2em;
 }
 
-.java {width: 50%; background-color: black;} /* Green */
-.python {width: 50%; background-color: black;} /* Blue */
-.mysql {width: 60%; background-color: black;} /* Red */
-.html {width: 40%; background-color: black;} /* Dark Grey */
-.css {width: 35%; background-color: black;} /* Dark Grey */
-.word {width: 60%; background-color: black;} /* Dark Grey */
-.excel {width: 60%; background-color: black;} /* Dark Grey */
-.english {width: 80%; background-color: black;} /* Dark Grey */
-.russian {width: 60%; background-color: black;} /* Dark Grey */
+.java {width: 50%; background-color: black;} 
+.python {width: 50%; background-color: black;} 
+.mysql {width: 60%; background-color: black;} 
+.html {width: 40%; background-color: black;} 
+.css {width: 35%; background-color: black;} 
+.word {width: 60%; background-color: black;} 
+.excel {width: 60%; background-color: black;} 
+.english {width: 80%; background-color: black;} 
+.russian {width: 60%; background-color: black;} ä
 
 .box {
   background-color: #f2e6d9;
@@ -109,15 +106,15 @@ h4      {
 }
 
 .skills1 {
-  text-align: rightt; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+  text-align: rightt;
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
 }
 
 .container1 {
-  width: 65%; /* Full width */
-  background-color: white; /* Grey background */
+  width: 65%; 
+  background-color: white; 
 }
 
 .box1 {
@@ -133,17 +130,15 @@ h4      {
   float: left;
   width: 33.33%;
   padding: 10px;
-  height: 220px; /* Should be removed. Only for demonstration */
+  height: 220px; 
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;

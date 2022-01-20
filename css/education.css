@@ -6,25 +6,25 @@
     width: 65%;
   }
   
-  {
+  * {
     box-sizing: border-box;
   }
 
   .header {
-    padding: 60px; /* some padding */
-    text-align: left; /* center the text */
-    background: grey; /* green background */
-    color: white; /* white text color */
+    padding: 60px; 
+    text-align: left; 
+    background: grey; 
+    color: white; 
     width: 70%;
     display: block;
     margin-left: 30px;
   }
 
   .header2 {
-    padding: 60px; /* some padding */
-    text-align: right; /* center the text */
-    background: grey; /* green background */
-    color: white; /* white text color */
+    padding: 60px; 
+    text-align: right; 
+    background: grey; 
+    color: white; 
     width: 70%;
     display: block;
     margin-left: 270px;
@@ -77,30 +77,28 @@ h5     {
 }
 
 .navbar {
-  overflow: hidden; /* Hide overflow */
-  background-color:white; /* Dark background color */
+  overflow: hidden; 
+  background-color:white; 
 }
 
-/* Style the navigation bar links */
 .navbar a {
-  float: left; /* Make sure that the links stay side-by-side */
-  display: block; /* Change the display to block, for responsive reasons (see below) */
-  color:black; /* White text color */
-  text-align: center; /* Center the text */
-  padding: 14px 20px; /* Add some padding */
+  float: left; 
+  display: block; 
+  color:black; 
+  text-align: center; 
+  padding: 14px 20px; 
   font-family: Sertig;
   font-size: 0.9em;
   text-decoration: none;
 }
 
-/* Right-aligned link */
 .navbar a.right {
-  float: right; /* Float a link to the right */
+  float: right; 
 }
-/* Change color on hover/mouse-over */
+
 .navbar a:hover {
-  background-color: #ddd; /* Grey background color */
-  color: black; /* Black text color */
+  background-color: #ddd; 
+  color: black; 
 }
 
 a:link {
